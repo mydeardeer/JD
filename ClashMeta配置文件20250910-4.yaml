@@ -3,243 +3,101 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国, server: bestcdn4.868863.xyz, port: 8443, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294792147.796813.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agrbniuh, headers: {Host: 17648294792147.796813.xyz}}}
-  - {name: 🇺🇸 美国 2, server: bestcdn3.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294796012.796813.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agrbniuh, headers: {Host: 17648294796012.796813.xyz}}}
-  - {name: 🇺🇸 美国 3, server: bestcdn1.868863.xyz, port: 2096, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294795485.796813.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agrbniuh, headers: {Host: 17648294795485.796813.xyz}}}
-  - {name: 🇺🇸 美国 4, server: bestcdn1.868863.xyz, port: 2087, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294795509.206355.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /videomuaawe, headers: {Host: 17648294795509.206355.xyz}}}
-  - {name: 🇺🇸 美国 5, server: bestcdn3.868863.xyz, port: 2053, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294799574.206355.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /videomuaawe, headers: {Host: 17648294799574.206355.xyz}}}
-  - {name: 🇺🇸 美国 6, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294797081.206355.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /videomuaawe, headers: {Host: 17648294797081.206355.xyz}}}
-  - {name: 🇺🇸 美国 7, server: bestcdn2.868863.xyz, port: 2096, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294792353.206355.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /videomuaawe, headers: {Host: 17648294792353.206355.xyz}}}
-  - {name: 🇺🇸 美国 8, server: bestcdn5.868863.xyz, port: 8443, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294797645.206355.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /videomuaawe, headers: {Host: 17648294797645.206355.xyz}}}
-  - {name: 🇺🇸 美国 9, server: bestcdn5.868863.xyz, port: 2053, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294799740.796813.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agrbniuh, headers: {Host: 17648294799740.796813.xyz}}}
-  - {name: 🇺🇸 美国 10, server: bestcdn2.868863.xyz, port: 2087, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294794284.796813.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agrbniuh, headers: {Host: 17648294794284.796813.xyz}}}
-  - {name: 🇺🇸 美国 11, server: bestcdn4.868863.xyz, port: 8443, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294791377.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294791377.796812.xyz}}}
-  - {name: 🇺🇸 美国 12, server: bestcdn2.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294792981.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294792981.796812.xyz}}}
-  - {name: 🇺🇸 美国 13, server: bestcdn3.868863.xyz, port: 2087, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294798041.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294798041.796812.xyz}}}
-  - {name: 🇺🇸 美国 14, server: bestcdn1.868863.xyz, port: 2053, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294793940.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294793940.796812.xyz}}}
-  - {name: 🇺🇸 美国 15, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294792038.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294792038.796812.xyz}}}
-  - {name: 🇺🇸 美国 16, server: bestcdn4.868863.xyz, port: 2096, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294793893.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294793893.796812.xyz}}}
-  - {name: 🇺🇸 美国 17, server: bestcdn4.868863.xyz, port: 8443, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294794046.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294794046.796812.xyz}}}
-  - {name: 🇺🇸 美国 18, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294792916.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294792916.796812.xyz}}}
-  - {name: 🇺🇸 美国 19, server: bestcdn4.868863.xyz, port: 2083, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294794353.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294794353.796812.xyz}}}
-  - {name: 🇺🇸 美国 20, server: bestcdn4.868863.xyz, port: 2096, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294791862.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294791862.796812.xyz}}}
-  - {name: 🇺🇸 美国 21, server: bestcdn5.868863.xyz, port: 8443, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294794564.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294794564.796812.xyz}}}
-  - {name: 🇺🇸 美国 22, server: bestcdn4.868863.xyz, port: 2087, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294796401.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294796401.796812.xyz}}}
-  - {name: 🇺🇸 美国 23, server: bestcdn4.868863.xyz, port: 2053, type: trojan, password: d111d85a-f8ef-4468-8c56-148c0166f822, sni: 17648294796476.796812.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /agraeabtegrrh, headers: {Host: 17648294796476.796812.xyz}}}
-  - {name: 🇭🇰 香港, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: 112.118.116.66, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 台灣, server: 104.18.39.30, port: 2087, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: www.x-aniu----tw.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.x-aniu----tw.netlib.re}}}
-  - {name: 🇭🇰 香港 4, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] trojan-HK ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 5, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 6, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 7, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 8, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: 112.118.116.66, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 9, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 10, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 393 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 11, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 393 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 12, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kong©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 13, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 14, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 751 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 15, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 16, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 17, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 18, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 19, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " +[By+EbraSha]+b2n.ir/v2ray-configs+|+690+", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 20, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 851 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 21, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 22, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 956 ", skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: jp3.dexlos.com, port: 5557, type: hysteria2, password: B1DF4B23-EA34-410C-89A8-09CF4EE45225, auth: B1DF4B23-EA34-410C-89A8-09CF4EE45225, sni: jp3.dexlos.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: 139.162.83.106, port: 4399, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: /, headers: {Host: vless3.datatestvless.click}}}
-  - {name: 🇭🇰 香港 23, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] ", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: 116.80.58.239, port: 39975, type: vless, uuid: 15b84012-d261-4b4c-807a-061bb4a901fd, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: cloudcircus.jp, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 24, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 25, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] trojan-HK ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 26, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 27, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 28, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 29, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 30, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 399 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 31, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 32, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 145 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 33, server: 202.85.53.74, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, tfo: false, skip-cert-verify: false, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/, headers: {Host: gaosir.unfeeling.sbs}}}
-  - {name: 🇭🇰 香港 34, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 35, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 36, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 37, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " +[By+EbraSha]+b2n.ir/v2ray-configs+|+690+", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 38, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.18.95, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 39, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 40, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 41, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.18.95, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 42, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 43, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 44, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 4, server: 138.2.50.155, port: 38487, type: vless, uuid: bc9a8522-d884-41cd-de9c-9a29812b55ef, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: icloud.cdn-apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 45, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 46, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 47, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.30.175, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 48, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 49, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 50, server: 6d82d9b2-t6ngg0-t7kytf-1mqag.hk1.hyhuawei.com, port: 443, type: hysteria2, password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, auth: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, sni: 6d82d9b2-t6ngg0-t7kytf-1mqag.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 51, server: 432f44d7-t55r40-t94bdb-mrtr.hk1.hyhuawei.com, port: 443, type: hysteria2, password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, auth: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, sni: 432f44d7-t55r40-t94bdb-mrtr.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 52, server: 369741ab-t48f40-tbpu76-1thmd.hk1.hyhuawei.com, port: 443, type: hysteria2, password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, auth: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, sni: 369741ab-t48f40-tbpu76-1thmd.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 24, server: 68.64.176.135, port: 443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, tfo: false, skip-cert-verify: false, servername: ak.suoni.nyc.mn, client-fingerprint: random, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.suoni.nyc.mn}}}
-  - {name: 🇭🇰 香港 53, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 245 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 54, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 438 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 55, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 749 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 56, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 749 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 57, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 956 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 58, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 964 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 59, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 60, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.8, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 61, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.8, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 62, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 438 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 63, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 64, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 65, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 749 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 66, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 145 ", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 25, server: 134.195.101.191, port: 35000, type: hysteria2, password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27, auth: 02fe8dae-73b7-4f1d-a992-f0e226a98f27, sni: www.apple.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 67, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kong©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 68, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 75 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 69, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 472 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 70, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 964 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 71, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kon©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 72, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 73, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: ������, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 74, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 188 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 75, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 76, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 188 ", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 26, server: us8.dexlos.com, port: 15768, type: hysteria2, password: B1DF4B23-EA34-410C-89A8-09CF4EE45225, auth: B1DF4B23-EA34-410C-89A8-09CF4EE45225, sni: us8.dexlos.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 77, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 台灣 2, server: 104.18.127.70, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: www.x-aniu----tw.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.x-aniu----tw.netlib.re}}}
-  - {name: 🇷🇺 俄罗斯, server: 62.60.148.21, port: 443, type: vless, uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho, short-id: "ee6f3e8f44b1f0b6" }, servername: st.ozone.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇫🇷 法国, server: 152.53.162.122, port: 6093, type: vless, uuid: e5603527-ac9b-4f69-906e-34bea11c5835, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: W91d6Qp8Avflj9K7rMYGGdhxV_W0Ds_FSu_c996zknk, short-id: "57e13c11bb421329" }, servername: eas1goauth.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇫🇷 法国 2, server: 141.227.172.96, port: 56089, type: vless, uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3, tls: false, tfo: false, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix, server: www.speedtest.net, port: 2082, type: vless, uuid: ad954139-7c6b-4b56-d121-97b0893633a5, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082", headers: {Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.}}}
-  - {name: 🇺🇸 美国 27, server: 172.233.226.79, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: chrome, network: tcp}
-  - {name: 🇺🇸 美国 28, server: 209.200.246.53, port: 36774, type: trojan, password: Fv7ogJ6vfz, sni: cloudflare.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 29, server: 75.127.13.83, port: 47974, type: hysteria2, password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0, auth: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0, sni: www.bing.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 78, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 2, server: 213.165.54.4, port: 443, type: vless, uuid: 50b672fd-167c-4598-9efa-dd3568316329, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4, short-id: "fc7a526a7e61ba3b" }, servername: cdnjs.com, client-fingerprint: safari, network: tcp}
-  - {name: 🇫🇷 法国 3, server: fr.atlanta-internet.ru, port: 8443, type: vless, uuid: 669be00c-67b4-4b87-b08f-311c45abced2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI}, servername: pingless.com, client-fingerprint: safari, network: tcp}
-  - {name: 🇭🇰 香港 79, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] trojan-HK ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 80, server: hk3.dexlos.com, port: 5566, type: hysteria2, password: B1DF4B23-EA34-410C-89A8-09CF4EE45225, auth: B1DF4B23-EA34-410C-89A8-09CF4EE45225, sni: hk3.dexlos.com, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 4, server: 141.227.172.96, port: 56089, type: vless, uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3, tls: false, tfo: false, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}}
-  - {name: 🇷🇺 俄罗斯 3, server: wolfy.ufavpn.ru, port: 52900, type: vless, uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ, short-id: "1fbc" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇫🇮 芬兰, server: fi.atlanta-internet.ru, port: 8443, type: vless, uuid: 669be00c-67b4-4b87-b08f-311c45abced2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI}, servername: pingless.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇫🇷 法国 5, server: 141.227.172.96, port: 56089, type: vless, uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3, tls: false, tfo: false, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}}
-  - {name: 🇷🇺 俄罗斯 4, server: wolfy.ufavpn.ru, port: 42275, type: vless, uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM, short-id: "08" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇺🇸 美国 30, server: 20.235.105.146, port: 443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, tfo: false, skip-cert-verify: false, servername: ak.suoni.nyc.mn, client-fingerprint: random, network: ws, ws-opts: {path: /, headers: {Host: ak.suoni.nyc.mn}}}
-  - {name: 🇬🇧 英国, server: 25.25.25.253, port: 2096, type: vless, uuid: 38021ff2-6778-4363-92b1-d70ac11acf51, tls: true, tfo: false, skip-cert-verify: false, servername: alanconf.info, network: ws, ws-opts: {path: /, headers: {Host: alanconf.info}}}
-  - {name: 🇷🇺 俄罗斯 5, server: 151.243.171.156, port: 443, type: vless, uuid: 669be00c-67b4-4b87-b08f-311c45abced2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI}, servername: pingless.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇬🇧 英国 2, server: 77.83.245.194, port: 32690, type: vless, uuid: 0f24429c-bcf6-4011-8a1b-a3e5eda7452a, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 5C6bZsJKoDICwBbNH4VFlOk2uW1YYoR1vrPHgNURcns, short-id: "6b5c55d3bfc0356f" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2, server: easygovpnkeys16.com, port: 6093, type: vless, uuid: e5603527-ac9b-4f69-906e-34bea11c5835, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: W91d6Qp8Avflj9K7rMYGGdhxV_W0Ds_FSu_c996zknk, short-id: "57e13c11bb421329" }, servername: eas1goauth.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 81, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 3, server: 25.25.25.253, port: 2096, type: vless, uuid: 38021ff2-6778-4363-92b1-d70ac11acf51, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: alanconf.info, network: ws, ws-opts: {path: /, headers: {Host: alanconf.info}}}
-  - {name: 🇬🇧 英国 4, server: 25.25.25.253, port: 2096, type: vless, uuid: 38021ff2-6778-4363-92b1-d70ac11acf51, tls: true, tfo: false, skip-cert-verify: false, servername: alanconf.info, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: alanconf.info}}}
-  - {name: 🇭🇰 香港 82, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 83, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 75 ", skip-cert-verify: false}
-  - {name: 🇮🇹 意大利, server: usaa.fastlynew.hosting-ip.com, port: 80, type: vless, uuid: ed419045-6333-4f6a-93ba-9d87d4e5759b, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mojhsjd.global.ssl.fastly.net}}}
-  - {name: 🇭🇰 香港 84, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
-  - {name: 🇩🇪 德国, server: 45.83.22.118, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: NS8BriBL9gcPEHTXiN66aT}
-  - {name: 🇭🇰 香港 85, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇬🇧 英国 5, server: 25.25.25.253, port: 2096, type: vless, uuid: 38021ff2-6778-4363-92b1-d70ac11acf51, tls: true, tfo: false, skip-cert-verify: false, servername: alanconf.info, network: ws, ws-opts: {path: /, headers: {Host: alanconf.info}}}
-  - {name: 🇮🇩 印度尼西亚, server: 180.131.145.161, port: 23274, type: trojan, password: FodSUXysuS, sni: cloudflare.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 86, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 749 ", skip-cert-verify: false}
-  - {name: 🇩🇪 德国 2, server: 45.83.22.118, port: 8443, type: ss, cipher: aes-256-gcm, password: 6af24790-76c9-49d3-bbe0-01285239e57d}
-  - {name: 🇭🇰 香港 87, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 88, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 851 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 89, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 393 ", skip-cert-verify: false}
-  - {name: 🇧🇬 保加利亚, server: bg.fasssst.ru, port: 443, type: vless, uuid: c1853115-eb6b-4592-b01f-05037d33505d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4, short-id: "f5b76860a3c9c3f5" }, servername: bg.fasssst.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇷🇺 俄罗斯 6, server: plr.strelkavpn.ru, port: 8443, type: vless, uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM, short-id: "5626dfc4162fd4f2" }, servername: plr.strelkavpn.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 90, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 851 ", skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 7, server: 178.236.16.98, port: 35728, type: vless, uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng, short-id: "69a2" }, servername: yahoo.com, client-fingerprint: ios, network: tcp}
-  - {name: 🇭🇰 香港 91, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kon©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 92, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] trojan-HK ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 93, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 223 ", skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 8, server: 178.236.16.98, port: 35728, type: vless, uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng, short-id: "69a2" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 94, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 956 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 95, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kong©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇬🇧 英国 6, server: 212.192.212.74, port: 443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, tfo: false, skip-cert-verify: false, servername: ak.suoni.nyc.mn, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.suoni.nyc.mn}}}
-  - {name: 🇭🇰 香港 96, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 188 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 97, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 98, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 99, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 749 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 100, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 101, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 964 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 102, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 438 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 103, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 964 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 104, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " +[By+EbraSha]+b2n.ir/v2ray-configs+|+956+", skip-cert-verify: false}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3, server: 188.114.97.3, port: 80, type: vless, uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc, tls: false, tfo: false, skip-cert-verify: false, servername: 188.114.97.3, network: ws, ws-opts: {path: "/eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560", headers: {Host: 188.114.97.3}}}
-  - {name: 🇺🇸 美国 31, server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz, port: 443, type: vless, uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE, short-id: "55e6af1a35e64a98" }, servername: i2pd.website, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 105, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] Kong©️Central��️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 106, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 438 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 107, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 75 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 108, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] ", skip-cert-verify: false}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4, server: 188.114.97.3, port: 80, type: vless, uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: 024.electrocellco-cf-024.workers.dev}}}
-  - {name: 🇭🇰 香港 109, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 605 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 110, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 111, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 112, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 113, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 145 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 114, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 115, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 393 ", skip-cert-verify: false}
-  - {name: 台灣 3, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&telegram@freecodes", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 台灣 4, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: /, headers: {Host: vless3.datatestvless.click}}}
-  - {name: 🇭🇰 香港 116, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] Kon©️Central ️ping:229.77ms ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 117, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 118, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 119, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 956 ", skip-cert-verify: false}
-  - {name: 台灣 5, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: /, headers: {Host: vless3.datatestvless.click}}}
-  - {name: 台灣 6, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&telegram+@wangcai2", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 🇯🇵 日本 5, server: jp2.dexlos.com, port: 3037, type: hysteria2, password: B1DF4B23-EA34-410C-89A8-09CF4EE45225, auth: B1DF4B23-EA34-410C-89A8-09CF4EE45225, sni: jp2.dexlos.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 120, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 75 ", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 121, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: "�� [By EbraSha] b2n.ir/v2ray-configs | 690 ", skip-cert-verify: false}
-  - {name: 🇰🇷 韩国, server: kr1-r.link-t7.com, port: 10046, type: vless, uuid: B1DF4B23-EA34-410C-89A8-09CF4EE45225, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: "686c0ef0" }, servername: s0.awsstatic.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: update}}
-  - {name: 🇸🇬 新加坡, server: 104.18.127.70, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: www.x-aniu---sg.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.x-aniu---sg.netlib.re}}}
-  - {name: 台灣 7, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&Telegram@freecodes", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 🇷🇺 俄罗斯 9, server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: bSlgCoGhApOb55tIMD0zxY}
-  - {name: 🇫🇮 芬兰 2, server: notifications.platform.dash.cloudflare.com, port: 2052, type: vless, uuid: 15ac9083-177e-4852-9acf-a9ccf24e6b35, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: udbdushs-28727272-idbsisbsha-iwiwiw.poshakhowdy.ir}}}
-  - {name: 🇭🇰 香港 122, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: " [By EbraSha] b2n.ir/v2ray-configs | 987 ", skip-cert-verify: false}
-  - {name: 台灣 8, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&telegram🇨🇳@wangcai2", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 台灣 9, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: vless3.datatestvless.click}}}
+  - {name: 🇭🇰 香港, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 2, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 3, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 4, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 5, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20Kong%C2%A9%EF%B8%8FCentral%F0%9F%85%BF%EF%B8%8Fping%3A229.77ms%20", skip-cert-verify: false}
+  - {name: 英國, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx}
+  - {name: 🇭🇰 香港 6, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20188%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 7, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20987%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 8, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20956%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 9, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.8, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 10, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.25.242, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 11, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 12, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20749%20", skip-cert-verify: false}
+  - {name: 俄羅斯, server: clr.ducks.tel, port: 17846, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230}
+  - {name: 美國, server: 209.200.246.53, port: 36774, type: trojan, password: Fv7ogJ6vfz, sni: cloudflare.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 13, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2075%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 14, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20920%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 15, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20626%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 16, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2075%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 17, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20315%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 18, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20Kon%C2%A9%EF%B8%8FCentral%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%B8%8Fping%3A229.77ms%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 19, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 20, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 21, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 俄羅斯 2, server: 46.29.161.237, port: 443, type: trojan, password: af4b064a9c39472fb34ad8b113acdc6b, sni: 46.29.161.237, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 22, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.8, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 23, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20Kong%C2%A9%EF%B8%8FCentral%20%20%20%20%20%20%EF%B8%8Fping%3A229.77ms%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 24, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B956%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 25, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.30.120, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 26, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 27, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20223%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 28, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20946%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 29, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20145%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 30, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2075%20", skip-cert-verify: false}
+  - {name: 美國 2, server: clr.ducks.tel, port: 17847, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230}
+  - {name: 🇭🇰 香港 31, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 32, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20223%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 33, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20749%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 34, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 35, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 36, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20851%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 37, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 38, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.25.20, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 39, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20964%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 40, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20438%20", skip-cert-verify: false}
+  - {name: 德國, server: clr.ducks.tel, port: 17844, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230}
+  - {name: 🇭🇰 香港 41, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20956%20", skip-cert-verify: false}
+  - {name: 美國 3, server: 23.227.38.33, port: 443, type: trojan, password: aff9928f-7ba3-45fb-b56d-4dec45653ca9, sni: z9mifq7ujufk56im.jptimecsgo.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: z9mifq7ujufk56im.jptimecsgo.xyz}}}
+  - {name: 🇭🇰 香港 42, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20393%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 43, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20751%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 44, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 45, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 46, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 47, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20438%20", skip-cert-verify: false}
+  - {name: 荷蘭, server: 45.83.20.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy}
+  - {name: 🇭🇰 香港 48, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 49, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20188%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 50, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 51, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B956%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 52, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 53, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20Kon%C2%A9%EF%B8%8FCentral%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%B8%8Fping%3A229.77ms%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 54, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20749%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 55, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 56, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20964%20", skip-cert-verify: false}
+  - {name: 俄羅斯 3, server: 45.139.26.173, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00}
+  - {name: 🇭🇰 香港 57, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 58, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20964%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 59, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20188%20", skip-cert-verify: false}
+  - {name: 台灣, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: 🇭🇰 香港 60, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 61, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20939%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 62, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 63, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20Kong%C2%A9%EF%B8%8FCentral%20%EF%B8%8Fping%3A229.77ms%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 64, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20851%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 65, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 66, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20223%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 67, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 68, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20472%20", skip-cert-verify: false}
+  - {name: 英國 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm}
+  - {name: 🇭🇰 香港 69, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20987%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 70, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20779%20", skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -247,6 +105,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -256,11 +116,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -268,6 +126,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -278,27 +137,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -306,146 +168,23 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -453,6 +192,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -462,11 +203,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -474,6 +213,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -484,27 +224,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -512,146 +255,23 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -659,6 +279,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -668,11 +290,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -680,6 +300,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -690,27 +311,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -718,145 +342,22 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -864,6 +365,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -873,11 +376,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -885,6 +386,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -895,27 +397,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -923,145 +428,22 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -1069,6 +451,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -1078,11 +462,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -1090,6 +472,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -1100,27 +483,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -1128,145 +514,22 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -1274,6 +537,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -1283,11 +548,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -1295,6 +558,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -1305,27 +569,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -1333,146 +600,23 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -1480,6 +624,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -1489,11 +635,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -1501,6 +645,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -1511,27 +656,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -1539,111 +687,11 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1666,35 +714,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
-      - 台灣
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 英國
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -1702,6 +727,8 @@ proxy-groups:
       - 🇭🇰 香港 10
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
+      - 俄羅斯
+      - 美國
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
       - 🇭🇰 香港 15
@@ -1711,11 +738,9 @@ proxy-groups:
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
       - 🇭🇰 香港 21
+      - 俄羅斯 2
       - 🇭🇰 香港 22
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 23
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 24
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
@@ -1723,6 +748,7 @@ proxy-groups:
       - 🇭🇰 香港 28
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
+      - 美國 2
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
@@ -1733,27 +759,30 @@ proxy-groups:
       - 🇭🇰 香港 38
       - 🇭🇰 香港 39
       - 🇭🇰 香港 40
+      - 德國
       - 🇭🇰 香港 41
+      - 美國 3
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
       - 🇭🇰 香港 44
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
       - 🇭🇰 香港 47
+      - 荷蘭
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
       - 🇭🇰 香港 50
       - 🇭🇰 香港 51
       - 🇭🇰 香港 52
-      - 🇺🇸 美国 24
       - 🇭🇰 香港 53
       - 🇭🇰 香港 54
       - 🇭🇰 香港 55
       - 🇭🇰 香港 56
+      - 俄羅斯 3
       - 🇭🇰 香港 57
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
+      - 台灣
       - 🇭🇰 香港 60
       - 🇭🇰 香港 61
       - 🇭🇰 香港 62
@@ -1761,115 +790,16 @@ proxy-groups:
       - 🇭🇰 香港 64
       - 🇭🇰 香港 65
       - 🇭🇰 香港 66
-      - 🇺🇸 美国 25
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 英國 2
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
-      - 🇭🇰 香港 71
-      - 🇭🇰 香港 72
-      - 🇭🇰 香港 73
-      - 🇭🇰 香港 74
-      - 🇭🇰 香港 75
-      - 🇭🇰 香港 76
-      - 🇺🇸 美国 26
-      - 🇭🇰 香港 77
-      - 台灣 2
-      - 🇷🇺 俄罗斯
-      - 🇫🇷 法国
-      - 🇫🇷 法国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇺🇸 美国 27
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇭🇰 香港 78
-      - 🇷🇺 俄罗斯 2
-      - 🇫🇷 法国 3
-      - 🇭🇰 香港 79
-      - 🇭🇰 香港 80
-      - 🇫🇷 法国 4
-      - 🇷🇺 俄罗斯 3
-      - 🇫🇮 芬兰
-      - 🇫🇷 法国 5
-      - 🇷🇺 俄罗斯 4
-      - 🇺🇸 美国 30
-      - 🇬🇧 英国
-      - 🇷🇺 俄罗斯 5
-      - 🇬🇧 英国 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - 🇭🇰 香港 81
-      - 🇬🇧 英国 3
-      - 🇬🇧 英国 4
-      - 🇭🇰 香港 82
-      - 🇭🇰 香港 83
-      - 🇮🇹 意大利
-      - 🇭🇰 香港 84
-      - 🇩🇪 德国
-      - 🇭🇰 香港 85
-      - 🇬🇧 英国 5
-      - 🇮🇩 印度尼西亚
-      - 🇭🇰 香港 86
-      - 🇩🇪 德国 2
-      - 🇭🇰 香港 87
-      - 🇭🇰 香港 88
-      - 🇭🇰 香港 89
-      - 🇧🇬 保加利亚
-      - 🇷🇺 俄罗斯 6
-      - 🇭🇰 香港 90
-      - 🇷🇺 俄罗斯 7
-      - 🇭🇰 香港 91
-      - 🇭🇰 香港 92
-      - 🇭🇰 香港 93
-      - 🇷🇺 俄罗斯 8
-      - 🇭🇰 香港 94
-      - 🇭🇰 香港 95
-      - 🇬🇧 英国 6
-      - 🇭🇰 香港 96
-      - 🇭🇰 香港 97
-      - 🇭🇰 香港 98
-      - 🇭🇰 香港 99
-      - 🇭🇰 香港 100
-      - 🇭🇰 香港 101
-      - 🇭🇰 香港 102
-      - 🇭🇰 香港 103
-      - 🇭🇰 香港 104
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - 🇺🇸 美国 31
-      - 🇭🇰 香港 105
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港 107
-      - 🇭🇰 香港 108
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - 🇭🇰 香港 109
-      - 🇭🇰 香港 110
-      - 🇭🇰 香港 111
-      - 🇭🇰 香港 112
-      - 🇭🇰 香港 113
-      - 🇭🇰 香港 114
-      - 🇭🇰 香港 115
-      - 台灣 3
-      - 台灣 4
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港 117
-      - 🇭🇰 香港 118
-      - 🇭🇰 香港 119
-      - 台灣 5
-      - 台灣 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港 121
-      - 🇰🇷 韩国
-      - 🇸🇬 新加坡
-      - 台灣 7
-      - 🇷🇺 俄罗斯 9
-      - 🇫🇮 芬兰 2
-      - 🇭🇰 香港 122
-      - 台灣 8
-      - 台灣 9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,internal,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
@@ -1877,6 +807,7 @@ rules:
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,169.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
@@ -2250,7 +1181,6 @@ rules:
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitetag.us,🛑 全球拦截
@@ -3102,9 +2032,7 @@ rules:
   - DOMAIN-SUFFIX,log.mix.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,mobileads.dx.cn,🍃 应用净化
   - DOMAIN-SUFFIX,newspush.sinajs.cn,🍃 应用净化
-  - DOMAIN-SUFFIX,pay.mobile.sina.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sax.mobile.sina.cn,🍃 应用净化
-  - DOMAIN-SUFFIX,sax.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,saxd.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,🍃 应用净化
@@ -3505,7 +2433,6 @@ rules:
   - DOMAIN-SUFFIX,dol.tianyaui.cn,🍃 应用净化
   - DOMAIN-SUFFIX,dw.xcar.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,e.nexac.com,🍃 应用净化
-  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,exp.17wo.cn,🍃 应用净化
   - DOMAIN-SUFFIX,game.51yund.com,🍃 应用净化
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🍃 应用净化
@@ -3522,7 +2449,6 @@ rules:
   - DOMAIN-SUFFIX,mobileads.msn.com,🍃 应用净化
   - DOMAIN-SUFFIX,n.cosbot.cn,🍃 应用净化
   - DOMAIN-SUFFIX,newton-api.ele.me,🍃 应用净化
-  - DOMAIN-SUFFIX,ozone.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,pdl.gionee.com,🍃 应用净化
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com,🍃 应用净化
   - DOMAIN-SUFFIX,pixel.wp.com,🍃 应用净化
@@ -3535,7 +2461,6 @@ rules:
   - DOMAIN-SUFFIX,res.gwifi.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🍃 应用净化
   - DOMAIN-SUFFIX,sta.ganji.com,🍃 应用净化
-  - DOMAIN-SUFFIX,stat.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,stat.it168.com,🍃 应用净化
   - DOMAIN-SUFFIX,stats.chinaz.com,🍃 应用净化
   - DOMAIN-SUFFIX,stats.developingperspective.com,🍃 应用净化
@@ -3543,7 +2468,6 @@ rules:
   - DOMAIN-SUFFIX,tracker.yhd.com,🍃 应用净化
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
-  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
   - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -3760,6 +2684,7 @@ rules:
   - DOMAIN,copilot-proxy.githubusercontent.com,🌍 国外媒体
   - DOMAIN,gemini.google.com,🌍 国外媒体
   - DOMAIN,generativelanguage.googleapis.com,🌍 国外媒体
+  - DOMAIN,notebooklm.google.com,🌍 国外媒体
   - DOMAIN,sydney.bing.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ai.azure.com,🌍 国外媒体
   - DOMAIN-SUFFIX,anthropic.com,🌍 国外媒体
@@ -3767,6 +2692,7 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
   - DOMAIN-SUFFIX,claude.ai,🌍 国外媒体
+  - DOMAIN-SUFFIX,claude.com,🌍 国外媒体
   - DOMAIN-SUFFIX,claudeusercontent.com,🌍 国外媒体
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🌍 国外媒体
@@ -3781,6 +2707,7 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
   - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
   - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,jetbrains.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,makersuite.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,meta.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,mistral.ai,🌍 国外媒体
@@ -3790,6 +2717,7 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
   - DOMAIN-SUFFIX,perplexity.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,sora.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,x.ai,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
@@ -4352,6 +3280,7 @@ rules:
   - DOMAIN-SUFFIX,1e100.net,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,app-measurement.net,🚀 节点选择
+  - DOMAIN-SUFFIX,c.gle,🚀 节点选择
   - DOMAIN-SUFFIX,g.co,🚀 节点选择
   - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
@@ -4431,6 +3360,7 @@ rules:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,storage.live.com,🚀 节点选择
   - DOMAIN-SUFFIX,storage.msn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com,🚀 节点选择
   - DOMAIN-KEYWORD,porn,🚀 节点选择
   - DOMAIN-SUFFIX,8teenxxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,ahcdn.com,🚀 节点选择
@@ -4594,6 +3524,7 @@ rules:
   - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
   - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabachengdun.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
@@ -4612,6 +3543,7 @@ rules:
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
   - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,elemecdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
   - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
   - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
@@ -4619,6 +3551,7 @@ rules:
   - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
   - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.cn,🎯 全球直连
   - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
@@ -4948,6 +3881,7 @@ rules:
   - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
   - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
   - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,asklink.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连

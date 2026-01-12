@@ -16,304 +16,304 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 美國, server: 162.159.44.142, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 2, server: 162.159.45.232, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇯🇵 日本, server: 47.245.38.111, port: 443, type: vless, uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4, short-id: "860705e716cbe6ed" }, servername: www.autodesk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 美國 3, server: 162.159.44.142, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 4, server: 162.159.45.232, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 5, server: 162.159.1.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: www.sgxaniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.sgxaniu.qzz.io}}}
-  - {name: 美國 6, server: 108.162.196.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: www.sgxaniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.sgxaniu.qzz.io}}}
-  - {name: 美國 7, server: 108.162.196.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: tw.aniusnippets.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tw.aniusnippets.qzz.io}}}
-  - {name: 美國 8, server: 162.159.1.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: jp.xaniusg2.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: jp.xaniusg2.qzz.io}}}
-  - {name: 美國 9, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 10, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 11, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 美國 12, server: 108.162.196.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: x-hk.xaniusnippets.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: x-hk.xaniusnippets.qzz.io}}}
-  - {name: 美國 13, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 40043c1e-e9b7-465f-af32-40d429b9763e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520127%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 4, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B761%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 5, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 6, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%5D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 7, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 8, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 9, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 10, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 11, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 12, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252083%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 13, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
-  - {name: 美國 14, server: 172.64.145.93, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇯🇵 日本 2, server: 104.18.42.163, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇭🇰 香港 14, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20868%20", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: 172.64.145.93, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005/, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇭🇰 香港 15, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20166%20", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 4, server: www.shopify.com, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005/, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇭🇰 香港 16, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 17, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2054%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 18, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B648%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 19, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20178%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 20, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: false}
-  - {name: 美國 15, server: 104.18.42.163, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005/, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇭🇰 香港 21, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520166%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 22, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 俄羅斯, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}}
-  - {name: 🇭🇰 香港 23, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B78%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 24, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2054%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 25, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 26, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 27, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520648%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 28, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 29, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 30, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20%7C%20789%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 31, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 32, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BEbraSha%255D%252Btrojan-HK%252B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 33, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 34, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20402%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 35, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡, server: yg2g.jiedian242.com, port: 29877, type: vless, uuid: 1a598715-d629-4d8c-910b-dbe5ebdc0b53, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY}, servername: www.nvidia.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 36, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 37, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252054%2520", skip-cert-verify: false}
-  - {name: 美國 16, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: false, network: grpc}
-  - {name: 🇭🇰 香港 38, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇺🇸 美国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
-  - {name: 🇭🇰 香港 39, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: AZERB.NET}}}
-  - {name: 🇭🇰 香港 40, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 美国 4, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
-  - {name: 荷蘭, server: 104.16.17.45, port: 8080, type: vless, uuid: 964891e6-d09e-480c-b041-c7f3207953d3, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/eyJqdW5rIjoiWEdseXZwQ1ZIbGR1dUJzTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560", headers: {Host: weathered-firefly-8a0f.41c3bce2b6.workers.dev}}}
-  - {name: 🇭🇰 香港 41, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 5, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: TABRIZ.NET}}}
-  - {name: 美國 17, server: 104.21.7.133, port: 80, type: vless, uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lucky-voice-d6f3.difat89954-0c6.workers.dev}}}
-  - {name: 🇺🇸 美国 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"}}
-  - {name: 🇺🇸 美国 7, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK.NET}}}
-  - {name: 🇺🇸 美国 8, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: 2001:bc8:32d7:302::10, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 2001:bc8:32d7:302::10}}}
-  - {name: 🇭🇰 香港 42, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 43, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 9, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 2001:bc8:32d7:302::10}}}
-  - {name: 🇭🇰 香港 44, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "?ed=2048"}}
-  - {name: 🇺🇸 美国 11, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: Azerb.NET}}}
-  - {name: 🇺🇸 美国 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: TURK1.NET.NET}}}
-  - {name: 🇺🇸 美国 13, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: TABRIZ.NET}}}
-  - {name: 🇭🇰 香港 45, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252B%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 46, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 14, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: www.bing.com}}}
-  - {name: 美國 18, server: 172.67.187.145, port: 80, type: vless, uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lucky-voice-d6f3.difat89954-0c6.workers.dev}}}
-  - {name: 🇺🇸 美国 15, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}}
-  - {name: 🇭🇰 香港 47, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
-  - {name: 美國 19, server: 199.241.32.132, port: 26978, type: vless, uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE, short-id: "28bf" }, servername: tesla.com, client-fingerprint: chrome, network: tcp}
-  - {name: 美國 20, server: 104.16.2.59, port: 8080, type: vless, uuid: 964891e6-d09e-480c-b041-c7f3207953d3, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/eyJqdW5rIjoibzE1WnlVYklpUVdtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560", headers: {Host: weathered-firefly-8a0f.41c3bce2b6.workers.dev}}}
-  - {name: 🇭🇰 香港 48, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 49, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 5, server: www.shopify.com, port: 2096, type: trojan, password: f52d0a04-94ad-4f9e-9945-4c3d43374e36, sni: ts888.yumige.dpdns.org, alpn: [h3], skip-cert-verify: false, network: ws, ws-opts: {path: /http://45.32.19.198:30005, headers: {Host: ts888.yumige.dpdns.org}}}
-  - {name: 🇭🇰 香港 50, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2054%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 16, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
-  - {name: 🇭🇰 香港 51, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 17, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港 52, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 53, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B36%2B", skip-cert-verify: false}
-  - {name: 美國 21, server: free1.barayekhudam.ir, port: 2255, type: vless, uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc, short-id: "983c9303725c67" }, servername: radar.arvancloud.ir, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港 54, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 18, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2001:bc8:32d7:302::10}}}
-  - {name: 🇺🇸 美国 19, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 20, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", headers: {Host: AZERB.NET}}}
-  - {name: 美國 22, server: 79.110.63.79, port: 2255, type: vless, uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc, short-id: "983c9303725c67" }, servername: radar.arvancloud.ir, client-fingerprint: firefox, network: tcp}
-  - {name: 🇭🇰 香港 55, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 56, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20166%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 57, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 58, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 59, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 60, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20945%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 61, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20475%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 62, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520945%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 63, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 21, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"}}
-  - {name: 🇭🇰 香港 64, server: hkt.gzcloud.shop, port: 20519, type: vless, uuid: a2d12dc9-c111-45ac-b803-87e48f3484d8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp}
-  - {name: 🇭🇰 香港 65, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 德國, server: 2a01:4f8:1c17:e433::1, port: 12122, type: vless, uuid: 77aeb4e4-0f85-48bc-9578-4f712ca908d9, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: Db96VlxMFKESfK4XRBUnxPdeI21amMfbxcu7lqSoO2Y, short-id: "d5" }, servername: www.speedtest.net, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: e}}
-  - {name: 🇭🇰 香港 66, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
-  - {name: 阿聯酋, server: 38.180.27.102, port: 8443, type: vless, uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: CWeNg8bNNdCHYhjNl01BTevvPnHsXd736dymoBEsbBI}, servername: eh.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 俄羅斯 2, server: ru01-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: f13b15a6-d235-4161-b57a-274676335502, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 美國 23, server: hazmkardannn.info, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🇭🇰 香港 67, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20843%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 68, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20831%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 69, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 70, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 71, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B879%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 72, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20879%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 73, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2036%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 74, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20816%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 75, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 76, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520trojan-HK%2520", skip-cert-verify: false}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2, server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg}
-  - {name: 🇭🇰 香港 77, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 78, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B36%2B", skip-cert-verify: false}
-  - {name: 芬蘭, server: md2.vmelectronics.ru, port: 443, type: vless, uuid: c3ef0f28-7123-4dd5-aa69-6a99b13fa65f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 2Prv1-3tutblsIPl_DhQQp1opFzllqAcSPShoHlmr34, short-id: "da5f84e85736f625" }, servername: max.ru, client-fingerprint: qq, network: tcp}
-  - {name: 🇭🇰 香港 79, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520trojan-HK%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 80, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B879%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 81, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 82, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 83, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 84, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2036%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 85, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20340%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 86, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.46.60, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 87, server: 149.104.25.84, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: x-hk.xaniusnippets.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: x-hk.xaniusnippets.qzz.io}}}
-  - {name: 🇯🇵 日本 6, server: 2400:8902::f03c:95ff:fe48:2433, port: 7001, type: vless, uuid: b5826b46-3bc4-4e9c-88b8-d5e226dd3665, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: JY9uiVus5fHcZn_WzenI_1pRE-qLZpZrVm7g3LUbSn8, short-id: "98285ba8" }, servername: www.bing.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 88, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 89, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 90, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇯🇵 日本 7, server: japan.geodema.network, port: 443, type: vless, uuid: a11ab9c5-4155-430b-9efc-7a7122531382, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: japan.geodema.network, client-fingerprint: qq, network: tcp}
-  - {name: 🇭🇰 香港 91, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 92, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 93, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 美國 24, server: 172.67.162.50, port: 443, type: vless, uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: eEedFR5.7777155.Xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /6OWLjRc26b0nHYr5hYXD, headers: {Host: eEedFR5.7777155.Xyz}}}
-  - {name: 🇭🇰 香港 94, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 22, server: 104.19.45.11, port: 443, type: vmess, uuid: f19823db-48e6-44fc-8a6a-372ce3611763, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: york-headed-producer-stadium.trycloudflare.com, network: ws, ws-opts: {path: /vmess-argo, headers: {Host: york-headed-producer-stadium.trycloudflare.com}}}
-  - {name: 賽普勒斯, server: 23.227.38.33, port: 443, type: trojan, password: a544940a-2c1c-4723-96cc-d03053a95530, sni: z9mifq7ujufk56im.jptimecsgo.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: z9mifq7ujufk56im.jptimecsgo.xyz}}}
-  - {name: 俄羅斯 3, server: 45.139.26.133, port: 443, type: vless, uuid: 613725ab-ca86-4d54-852e-a0bf45e812de, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IU2t096hBC7gAQ_rY1qwYsAtgiegzYI6loivZJxpx1E, short-id: "28e1270764a2464b" }, servername: alisa.kosmolet.xyz, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 95, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.25.86, skip-cert-verify: false}
-  - {name: 俄羅斯 4, server: 172.66.156.81, port: 80, type: vless, uuid: 57f56a3c-0e10-4fb2-ad70-3db23a572b0f, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec, headers: {Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.fdf.vegaskala.com.vegafod.com.}}}
-  - {name: 🇭🇰 香港 96, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20885%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 97, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 98, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20127%20", skip-cert-verify: false}
-  - {name: 俄羅斯 5, server: 45.139.26.33, port: 443, type: vless, uuid: 613725ab-ca86-4d54-852e-a0bf45e812de, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IU2t096hBC7gAQ_rY1qwYsAtgiegzYI6loivZJxpx1E, short-id: "28e1270764a2464b" }, servername: alisa.kosmolet.xyz, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 99, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20879%20", skip-cert-verify: false}
-  - {name: 芬蘭 2, server: 178.17.53.28, port: 47539, type: vless, uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U, short-id: "82a55f31981ea6be" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 100, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 101, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20", skip-cert-verify: false}
-  - {name: 俄羅斯 6, server: 45.139.26.152, port: 7443, type: vless, uuid: 7fc953d6-ae75-46fb-a970-10b57d513487, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA, short-id: "fd88bd27db4cc661" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 102, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 103, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 104, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 德國 2, server: api.dark-coffe.com, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
-  - {name: 德國 3, server: 51.250.16.101, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 105, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20868%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 106, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B", skip-cert-verify: false}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4, server: 188.114.96.2, port: 443, type: vless, uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf, tls: true, tfo: false, skip-cert-verify: false, servername: private.digikala.lat, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: private.digikala.lat}}}
-  - {name: 🇭🇰 香港 107, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20648%20", skip-cert-verify: false}
-  - {name: 俄羅斯 7, server: 158.160.189.247, port: 443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 5, server: 45.139.26.152, port: 7443, type: vless, uuid: 7fc953d6-ae75-46fb-a970-10b57d513487, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA, short-id: "fd88bd27db4cc661" }, servername: eh.vk.com, client-fingerprint: random, network: tcp}
-  - {name: 🇭🇰 香港 108, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 109, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B78%2B", skip-cert-verify: false}
-  - {name: 波蘭, server: 83.166.236.201, port: 443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 俄羅斯 8, server: 158.160.189.247, port: 8443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 110, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20402%20", skip-cert-verify: false}
-  - {name: 德國 4, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
-  - {name: 🇭🇰 香港 111, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20%7C%2088%20", skip-cert-verify: false}
-  - {name: 荷蘭 2, server: 85.90.207.104, port: 18793, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14}
-  - {name: 美國 25, server: 141.193.213.199, port: 443, type: trojan, password: a544940a-2c1c-4723-96cc-d03053a95530, sni: 26z68w0ecxbuyf89.ukgogo202511.top, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: 26z68w0ecxbuyf89.ukgogo202511.top}}}
-  - {name: 🇭🇰 香港 112, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 113, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520934%2520", skip-cert-verify: false}
-  - {name: 波蘭 2, server: 158.160.201.80, port: 443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 114, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 德國 5, server: 51.250.16.178, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 115, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 116, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20178%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 117, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 118, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20868%20", skip-cert-verify: false}
-  - {name: 俄羅斯 9, server: 158.160.189.247, port: 443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 俄羅斯 10, server: 158.160.189.247, port: 8443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "8f222b3475800821" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 德國 6, server: 51.250.16.101, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 波蘭 3, server: 158.160.201.80, port: 8443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 119, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 120, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 121, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2525252Fripaojiedian, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 122, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 波蘭 4, server: 176.123.164.110, port: 8443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "8f222b3475800821" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 俄羅斯 11, server: 158.160.201.80, port: 8443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "8f222b3475800821" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 波蘭 5, server: 51.250.99.190, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 波蘭 6, server: 83.166.236.201, port: 8443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "8f222b3475800821" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 123, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20449%20", skip-cert-verify: false}
-  - {name: 德國 7, server: 51.250.29.71, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 德國 8, server: 51.250.29.71, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 德國 9, server: 51.250.98.83, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 124, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 波蘭 7, server: 83.166.236.201, port: 443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 125, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
-  - {name: 美國 26, server: 91.106.109.73, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be5ee3c62f0aae96}
-  - {name: 芬蘭 3, server: 217.16.23.39, port: 4443, type: vless, uuid: ee53756a-d4dc-4b1e-8645-e04b77420cc9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: UohTC_vCYBbFnAoQ6cXgE5ab6xVjBHiELc-Ow2Uyg2I, short-id: "aa482c45443813a1" }, servername: max.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 126, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B36%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 127, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520", skip-cert-verify: false}
-  - {name: 波蘭 8, server: 158.160.201.80, port: 443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 德國 10, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
-  - {name: 🇭🇰 香港 128, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 129, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520402%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 130, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20", skip-cert-verify: false}
-  - {name: 荷蘭 3, server: 51.250.97.57, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 波蘭 9, server: 176.123.164.110, port: 443, type: vless, uuid: 329bd550-a8f8-4157-b2df-dc4503097a27, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 波蘭 10, server: 83.166.236.201, port: 8443, type: vless, uuid: e329843c-02c3-4401-8289-cf196d5a6921, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 131, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2017%20", skip-cert-verify: false}
-  - {name: 賽普勒斯 2, server: 23.227.38.33, port: 443, type: trojan, password: aff9928f-7ba3-45fb-b56d-4dec45653ca9, sni: z9mifq7ujufk56im.jptimecsgo.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: z9mifq7ujufk56im.jptimecsgo.xyz}}}
-  - {name: 🇭🇰 香港 132, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252088%2520", skip-cert-verify: false}
-  - {name: 德國 11, server: 51.250.29.132, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 133, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252088%2520", skip-cert-verify: false}
-  - {name: 德國 12, server: 51.250.29.132, port: 1488, type: vless, uuid: cc5be457-024a-4bd1-b769-90973ba5b06e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 134, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20761%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 135, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20236%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 136, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20885%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 137, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 138, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520166%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 139, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520934%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 140, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B934%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 141, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20%7C%20945%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 142, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252054%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 143, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 144, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520761%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 145, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252083%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 146, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%5D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 147, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 148, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B83%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 149, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2054%20", skip-cert-verify: false}
-  - {name: 俄羅斯 12, server: khabarovsk.geodema.network, port: 443, type: vless, uuid: a91e64f0-9295-499d-bf4a-661ad99d4938, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: khabarovsk.geodema.network, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 150, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520402%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 151, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 152, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 153, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 154, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20178%20", skip-cert-verify: false}
-  - {name: 🇻🇳 越南, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 🇭🇰 香港 155, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 156, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20166%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 157, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 美國 27, server: 213.165.60.36, port: 443, type: vless, uuid: e9dbc178-3656-40f8-8833-5023f306ef1d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "86e999a2cdc2" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 158, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
-  - {name: 德國 13, server: 5.39.253.14, port: 443, type: vless, uuid: db912ae7-7c2e-4777-897c-c49201e48cb9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: VRZ6ZwSsMA9K5f7aoJ9KvQgQ4xoSaF792mcNbeh-TQ4, short-id: "f12d61f4" }, servername: vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 159, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 160, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B340%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 161, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 162, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 163, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 164, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20402%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 165, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 166, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B879%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 167, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 168, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 169, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%255BBy%2520DukeMehdi%255D%2520trojan-HK%2520", skip-cert-verify: false}
-  - {name: 美國 28, server: us01-vlr01-gmn03.vpnvezdehod.net, port: 443, type: vless, uuid: e9dbc178-3656-40f8-8833-5023f306ef1d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "86e999a2cdc2" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇰 香港 170, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 86558621-899b-4c51-89ce-7ef44f247226, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 171, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 172, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20681%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 173, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 174, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20166%20", skip-cert-verify: false}
-  - {name: 🇺🇸 美国 23, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10"}}
-  - {name: 🇭🇰 香港 175, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 176, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 177, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 178, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520475%2520", skip-cert-verify: false}
-  - {name: 德國 14, server: cr7.zx-shop.ir, port: 2096, type: vless, uuid: 725f7cc0-af7e-40b8-e2c1-72e29bc00529, tls: true, tfo: false, skip-cert-verify: false, servername: Nvm.website-game.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config, headers: {Host: Nvm.website-game.ir}}}
-  - {name: 🇭🇰 香港 179, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20236%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 180, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 181, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20127%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 182, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 183, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20879%20", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 184, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 185, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20", skip-cert-verify: false}
-  - {name: 德國 15, server: cr7.zx-shop.ir, port: 2096, type: vless, uuid: 725f7cc0-af7e-40b8-e2c1-72e29bc00529, tls: true, tfo: false, skip-cert-verify: false, servername: Nvm.website-game.ir, network: ws, ws-opts: {path: "/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config?ed=2048", headers: {Host: Nvm.website-game.ir}}}
-  - {name: 🇭🇰 香港 186, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD", skip-cert-verify: false}
-  - {name: 🇭🇰 香港 187, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2036%20", skip-cert-verify: false}
+  - {name: 中國, server: 183.232.163.206, port: 47711, type: ss, cipher: chacha20-ietf-poly1305, password: e8911ffe-932a-43f6-b9e8-b59d08e19937}
+  - {name: 🇭🇰 香港, server: hk11.network-cdn-gw-yd.net, port: 47711, type: ss, cipher: chacha20-ietf-poly1305, password: e8911ffe-932a-43f6-b9e8-b59d08e19937}
+  - {name: 🇯🇵 日本, server: 193.32.150.67, port: 8443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: sg.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sg.aniuge.qzz.io}}}
+  - {name: 🇭🇰 香港 2, server: 172.64.158.58, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: tw.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tw.aniuge.qzz.io}}}
+  - {name: 美國, server: 162.159.16.164, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww4.sgxaniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww4.sgxaniu.qzz.io}}}
+  - {name: 美國 2, server: x.cf.090227.xyz, port: 2096, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: tw.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tw.aniuge.qzz.io}}}
+  - {name: 🇮🇳 印度, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, tfo: false, skip-cert-verify: false, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇭🇰 香港 3, server: 172.64.153.25, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: jp.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: jp.aniuge.qzz.io}}}
+  - {name: 美國 3, server: 162.159.1.160, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: hk.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: hk.aniuge.qzz.io}}}
+  - {name: 美國 4, server: 162.159.42.203, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww4.sgxaniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww4.sgxaniu.qzz.io}}}
+  - {name: 🇭🇰 香港 4, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 5, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
+  - {name: 美國 5, server: 223.95.183.132, port: 39398, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 🇭🇰 香港 6, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25F0%259F%2594%2592%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252088%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 7, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B78%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 8, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252520%252520%252520%252520%252520%252520%252520%25255BBy%252520DukeMehdi%25255D%252520b2n.ir%25252Fv2ray-configs%252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 9, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520127%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 10, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B166%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 11, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20127%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 12, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B681%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 13, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 14, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B945%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 15, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520648%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 16, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BDukeMehdi%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B402%252B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 17, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%5D%2520trojan-HK%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 18, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25252520%25252520%25252520%25252520%25252520%25252520%25252520%2525255BBy%25252520EbraSha%25255D%25252520b2n.ir%2525252Fv2ray-configs%25252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 19, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B868%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 20, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 21, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B783%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 22, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520trojan-HK%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 23, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 24, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20402%20", skip-cert-verify: false}
+  - {name: 美國 6, server: 25.129.197.138, port: 2053, type: vless, uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33, tls: true, tfo: false, skip-cert-verify: false, servername: KhAmeneI.DPdNs.OrG, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: KhAmeneI.DPdNs.OrG}}}
+  - {name: 🇭🇰 香港 25, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520166%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 26, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 27, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%250A%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 28, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B78%2B", skip-cert-verify: false}
+  - {name: 美國 7, server: 50.62.172.47, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww20.allxniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww20.allxniu.qzz.io}}}
+  - {name: 🇭🇰 香港 29, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 30, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 31, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B648%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 32, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 33, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B88%2B", skip-cert-verify: false}
+  - {name: 台灣, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e2e046e8-9289-4877-bbef-f733e84a4142, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 34, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20402%20", skip-cert-verify: false}
+  - {name: 德國, server: 5.45.109.158, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇭🇰 香港 35, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 36, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B382%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 37, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520160%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 38, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 39, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B868%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 40, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%250A%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 41, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252054%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 42, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 43, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 44, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252520%252520%252520%252520%252520%252520%252520%25255BBy%252520EbraSha%255D%252520b2n.ir%25252Fv2ray-configs%252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 45, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 46, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 47, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25F0%259F%2594%2592%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520449%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 48, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520945%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 49, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BDukeMehdi%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B160%252B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 50, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
+  - {name: 愛爾蘭, server: 34.254.224.37, port: 48056, type: vless, uuid: d811ecf9-4029-4794-a43e-3611c3575b9e, tls: true, alpn: [h2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: 34.254.224.37, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: www.bing.com}}
+  - {name: 🇭🇰 香港 51, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BDukeMehdi%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B83%252B", skip-cert-verify: false}
+  - {name: 美國 8, server: 5.161.142.186, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇭🇺 匈牙利, server: 217.13.104.149, port: 443, type: vless, uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg, short-id: "95ec618532fa065e" }, servername: travel.yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 奧地利, server: 152.53.48.237, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇭🇰 香港 52, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B83%2B", skip-cert-verify: false}
+  - {name: 荷蘭, server: 212.34.142.191, port: 8443, type: vless, uuid: 6d3d21ef-b24a-4932-8393-7efc90c3d89c, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0, short-id: "808e2d36726ee97e" }, servername: m.vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 53, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B83%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 54, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B127%2B", skip-cert-verify: false}
+  - {name: 美國 9, server: 151.101.3.8, port: 80, type: vless, uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN, headers: {Host: mitivpn.global.ssl.fastly.net}}}
+  - {name: 美國 10, server: 79.110.63.79, port: 2255, type: vless, uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc, short-id: "983c9303725c67" }, servername: radar.arvancloud.ir, client-fingerprint: firefox, network: tcp}
+  - {name: 中國 2, server: 223.95.183.132, port: 31091, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2}
+  - {name: 美國 11, server: 18.222.50.18, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: all.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: all.aniuge.qzz.io}}}
+  - {name: 芬蘭, server: 45.144.52.37, port: 443, type: vless, uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: fi.reality.tv123.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇹🇷 土耳其, server: 92.60.70.36, port: 2053, type: vless, uuid: 08c7f096-d057-4d53-82fd-c739d372887b, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
+  - {name: 🇭🇰 香港 55, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20152%20", skip-cert-verify: false}
+  - {name: 美國 12, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}}
+  - {name: 🇭🇰 香港 56, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%255BBy%2520DukeMehdi%255D%2520trojan-HK%2520", skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: 2400:8902::f03c:95ff:fe48:2433, port: 7001, type: vless, uuid: b5826b46-3bc4-4e9c-88b8-d5e226dd3665, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: JY9uiVus5fHcZn_WzenI_1pRE-qLZpZrVm7g3LUbSn8, short-id: "98285ba8" }, servername: www.bing.com, client-fingerprint: chrome, network: tcp}
+  - {name: 俄羅斯, server: 176.122.27.104, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 57, server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 美國 13, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nodes.830901.xyz}}}
+  - {name: 🇭🇰 香港 58, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B166%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 59, server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 俄羅斯 2, server: 176.122.27.196, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 60, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20127%20", skip-cert-verify: false}
+  - {name: 俄羅斯 3, server: 176.122.27.106, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 德國 2, server: 62.60.156.158, port: 8082, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, tfo: false, skip-cert-verify: false, servername: ennyfe.zipgd3vx91o.ddns-ip.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: ennyfe.zipgd3vx91o.ddns-ip.net}}}
+  - {name: 🇭🇰 香港 61, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252B%252B%252B%252B%252B%252B%252B%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
+  - {name: 俄羅斯 4, server: 176.122.27.124, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 俄羅斯 5, server: 176.122.27.153, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 美國 14, server: 75.102.51.220, port: 443, type: vless, uuid: be2d41c0-50d5-49f8-d309-f6fd923063f7, tls: true, tfo: false, skip-cert-verify: false, servername: ustc.dysenv2ray.top, network: ws, ws-opts: {path: /ustc_dysen_20206, headers: {Host: ustc.dysenv2ray.top}}}
+  - {name: 🇭🇰 香港 62, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20945%20", skip-cert-verify: false}
+  - {name: 🇯🇵 日本 3, server: 142.91.106.176, port: 443, type: vless, uuid: a11ab9c5-4155-430b-9efc-7a7122531382, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: japan.geodema.network, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 63, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B475%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 64, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252083%2520", skip-cert-verify: false}
+  - {name: 俄羅斯 6, server: 217.16.20.134, port: 443, type: vless, uuid: 4f9bda65-833e-4729-b69d-f6ba0869a538, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 24lsP7iRzgT7pMhCprlmHUB6_mbR17Pxc6P0R29f-Rk, short-id: "e3e27359" }, servername: www.vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 65, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%252520%25255BBy%252520DukeMehdi%25255D%252520b2n.ir%25252Fv2ray-configs%252520%25257C%252520166%252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 66, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%252520%25255BBy%252520EbraSha%25255D%252520b2n.ir%25252Fv2ray-configs%252520%25257C%252520885%252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 67, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 68, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
+  - {name: 🇱🇹 立陶宛, server: 185.239.50.16, port: 443, type: vless, uuid: d7af1bfd-3dea-4a46-9b54-524462f6645b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Ir8aVlMrWZv9xjSbcYXdZJ7F6BaNNNz0rtrX7SgzF1w, short-id: "03f19541765dff24" }, servername: free.dlntch.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 台灣 2, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: cccce61b-b07d-47e5-82c1-c0f1ccba1454, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 美國 15, server: 139.162.83.82, port: 32225, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&Telegram@freecodes", headers: {Host: vless3.datatestvless.click}}}
+  - {name: 美國 16, server: d0-473f-9717-0bc5daad31da.457.pp.ua, port: 443, type: vless, uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: D0-473F-9717-0BC5Daad31dA.457.pP.UA, client-fingerprint: chrome, network: ws, ws-opts: {path: /dgK6j67SvsqROzSPoHrBo, headers: {Host: D0-473F-9717-0BC5Daad31dA.457.pP.UA}}}
+  - {name: 台灣 3, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f7bac556-837a-4301-a50f-ae649bf06023, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 4, server: 220.130.58.136, port: 31102, type: trojan, password: b7aa4e87-d990-4f2d-8880-73b206953efc, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 5, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f3b55b53-43ca-46fd-b498-ed6cc394e179, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇸🇪 瑞典, server: 51.250.10.213, port: 443, type: vless, uuid: 1f8cddd7-35b3-487f-a4d0-61b2280328ba, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI, short-id: "a9725715bf4c62ff" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 台灣 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9450ab5e-f86f-40c1-89b0-92dfa6679553, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 7, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 338ea804-ded7-478a-bdca-0ff7a8e75d51, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 69, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 040faa11-3aeb-4408-b590-dca4f947705a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 70, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 8, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 79196bd6-fd1b-45fc-8b60-4b25ce0a8e71, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 71, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: df682bf0-81ae-41ea-bab3-be7075a7f1ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 72, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 5d7c94d8-9c4b-4cbd-99d2-4981686d653e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 美國 17, server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz, port: 443, type: vless, uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE, short-id: "55e6af1a35e64a98" }, servername: i2pd.website, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 73, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b7aa4e87-d990-4f2d-8880-73b206953efc, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 9, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f9fa7cb9-e07e-411a-814b-74c062f03e7e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 10, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: bb64f482-0dcb-46a4-b3b5-ec34bbdeeca8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 74, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: a29e4ebb-59c1-4d8c-8a00-99f539f94987, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 75, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 2b50d270-cddd-48d5-a1a0-577bddb33a58, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 76, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 77, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B", skip-cert-verify: false}
+  - {name: 荷蘭 2, server: 45.139.26.152, port: 7443, type: vless, uuid: 7fc953d6-ae75-46fb-a970-10b57d513487, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA, short-id: "fd88bd27db4cc661" }, servername: eh.vk.com, client-fingerprint: random, network: tcp}
+  - {name: 德國 3, server: 5.10.214.0, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 台灣 11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: d30c2d87-9541-4681-a912-e51e190bad2a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 德國 4, server: 5.10.214.0, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 78, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 德國 5, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 6, server: api.dark-coffe.com, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 台灣 12, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: aaf3a3a0-7b1b-4f56-a914-6c0115fdf7ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 79, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20160%20", skip-cert-verify: false}
+  - {name: 德國 7, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 80, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B402%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 81, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B885%2B", skip-cert-verify: false}
+  - {name: 台灣 13, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e3b397b6-6d7f-4807-ba7e-d2ea6336a9c9, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 德國 8, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.InFo, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.InFo}}}
+  - {name: 德國 9, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.InFo, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.InFo}}}
+  - {name: 德國 10, server: 5.10.214.5, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 11, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇯🇵 日本 4, server: japan.geodema.network, port: 443, type: vless, uuid: a11ab9c5-4155-430b-9efc-7a7122531382, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: japan.geodema.network, client-fingerprint: qq, network: tcp}
+  - {name: 德國 12, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 俄羅斯 7, server: 51.250.95.143, port: 443, type: vless, uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng, short-id: "f6" }, servername: www.mobile.yandex.ru, client-fingerprint: random, network: tcp}
+  - {name: 台灣 14, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 1f4b6310-f91e-41c1-9da9-83067dbfe448, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 82, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 5, server: japan.geodema.network, port: 443, type: vless, uuid: a11ab9c5-4155-430b-9efc-7a7122531382, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: japan.geodema.network, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 83, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B681%2B", skip-cert-verify: false}
+  - {name: 荷蘭 3, server: 45.139.26.152, port: 7443, type: vless, uuid: 7fc953d6-ae75-46fb-a970-10b57d513487, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA, short-id: "fd88bd27db4cc661" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 德國 13, server: 51.250.68.241, port: 7443, type: vless, uuid: b75e183a-03cf-4dd9-a171-1f71c07e8fef, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IdDtRnUGxwVJjxCQNH5bwkKh8HF5JqJa7WOEQOSmYXk, short-id: "d516acf00a2b0b5a" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 84, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252520%25252B%25255BBy%25252BDukeMehdi%25255D%25252Btrojan-HK%25252B", skip-cert-verify: false}
+  - {name: 德國 14, server: 5.10.214.0, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 英國, server: clean.photoggenic.ir, port: 8880, type: vless, uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=8880", headers: {Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir}}}
+  - {name: 🇭🇰 香港 85, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 德國 15, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 16, server: 5.10.214.0, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 17, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 德國 18, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 🇭🇰 香港 86, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252B%255BBy%252BDukeMehdi%255D%252Btrojan-HK%252B", skip-cert-verify: false}
+  - {name: 德國 19, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 美國 18, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: 德國 20, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 德國 21, server: 5.10.214.0, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 22, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 🇭🇰 香港 87, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 德國 23, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 美國 19, server: 139.162.83.82, port: 32225, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: vless3.datatestvless.click}}}
+  - {name: 德國 24, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 荷蘭 4, server: free1.barayekhudam.ir, port: 2255, type: vless, uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc, short-id: "983c9303725c67" }, servername: radar.arvancloud.ir, client-fingerprint: firefox, network: tcp}
+  - {name: 德國 25, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 🇭🇰 香港 88, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
+  - {name: 美國 20, server: c9-4250-9520-300764cf3849.457.pp.ua, port: 443, type: vless, uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: c9-4250-9520-300764cf3849.457.pp.ua, client-fingerprint: chrome, network: ws, ws-opts: {path: /dgK6j67SvsqROzSPoHrBo, headers: {Host: c9-4250-9520-300764cf3849.457.pp.ua}}}
+  - {name: 德國 26, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 德國 27, server: api.dark-coffe.com, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 89, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 90, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B17%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 91, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY}
+  - {name: 德國 28, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 美國 21, server: d0-473f-9717-0bc5daad31da.457.pp.ua, port: 443, type: vless, uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: D0-473F-9717-0BC5Daad31dA.457.pP.UA, network: ws, ws-opts: {path: /dgK6j67SvsqROzSPoHrBo, headers: {Host: D0-473F-9717-0BC5Daad31dA.457.pP.UA}}}
+  - {name: 美國 22, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 美國 23, server: ip-range.coin.name.ng, port: 8443, type: vless, uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4, tls: true, tfo: false, skip-cert-verify: false, servername: hzr27.sepiol.name.NG, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: hzr27.sepiol.name.NG}}}
+  - {name: 🇭🇰 香港 92, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2B", skip-cert-verify: false}
+  - {name: 德國 29, server: api.dark-coffe.com, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 30, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 德國 31, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 93, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B88%2B", skip-cert-verify: false}
+  - {name: 德國 32, server: 5.10.214.5, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 94, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520160%2520", skip-cert-verify: false}
+  - {name: 德國 33, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 🇭🇰 香港 95, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520", skip-cert-verify: false}
+  - {name: 德國 34, server: api.dark-coffe.com, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 35, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, alpn: [h3h2], tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.InFo, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.InFo}}}
+  - {name: 🇭🇰 香港 96, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 97, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 德國 36, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 德國 37, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 98, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.io%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: false}
+  - {name: 美國 24, server: 51.250.86.50, port: 443, type: vless, uuid: 1f8cddd7-35b3-487f-a4d0-61b2280328ba, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI, short-id: "a9725715bf4c62ff" }, servername: api-maps.yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 美國 25, server: ip-range.coin.name.ng, port: 8443, type: vless, uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4, tls: true, tfo: false, skip-cert-verify: false, servername: nexovh09.sepiol.name.NG, network: ws, ws-opts: {path: /, headers: {Host: nexovh09.sepiol.name.NG}}}
+  - {name: 🇭🇰 香港 99, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%252520%25255BBy%252520DukeMehdi%25255D%252520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 100, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%252088%2520", skip-cert-verify: false}
+  - {name: 美國 26, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm}
+  - {name: 德國 38, server: api.dark-coffe.com, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 101, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B127%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 102, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520", skip-cert-verify: false}
+  - {name: 德國 39, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 德國 40, server: 51.250.37.17, port: 7443, type: vless, uuid: b75e183a-03cf-4dd9-a171-1f71c07e8fef, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IdDtRnUGxwVJjxCQNH5bwkKh8HF5JqJa7WOEQOSmYXk, short-id: "d516acf00a2b0b5a" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 103, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 104, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20127%20", skip-cert-verify: false}
+  - {name: 芬蘭 2, server: 217.198.13.50, port: 443, type: vless, uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: fi.reality.tv123.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 德國 41, server: 51.250.8.129, port: 4241, type: vless, uuid: 8ad72540-91a0-426c-bfef-a1d2d8cb13f1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA, short-id: "111111" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 美國 27, server: 4069-a9d0-b967c7529ac7.457.pp.ua, port: 443, type: vless, uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: 4069-a9d0-b967c7529ac7.457.pp.ua, client-fingerprint: chrome, network: ws, ws-opts: {path: /dgK6j67SvsqROzSPoHrBo, headers: {Host: 4069-a9d0-b967c7529ac7.457.pp.ua}}}
+  - {name: 🇭🇰 香港 105, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 美國 28, server: ip-range.web3.name.ng, port: 8443, type: vless, uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4, tls: true, tfo: false, skip-cert-verify: false, servername: nexovh04.sepiol.name.ng, client-fingerprint: firefox, network: ws, ws-opts: {path: /, headers: {Host: nexovh04.sepiol.name.ng}}}
+  - {name: 摩爾多瓦, server: 185.234.57.207, port: 443, type: vless, uuid: dd92c4f8-be88-4c61-84eb-d261f798071e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ, short-id: "b5e0cd9ca194c0a5" }, servername: teamdocs.su, client-fingerprint: chrome, network: tcp}
+  - {name: 英國 2, server: 158.160.135.161, port: 443, type: vless, uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: cdnv-img.perekrestok.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 德國 42, server: 51.250.107.153, port: 443, type: vless, uuid: a0f8bf0f-4cf0-4848-aa0c-032a1a47012e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: QG8WiQBNllBzYQxyowKE-T2BhTGd3b9TikE0vPOBgzI}, servername: max.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 106, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520160%2520", skip-cert-verify: false}
+  - {name: 德國 43, server: 84.201.130.91, port: 4241, type: vless, uuid: 8ad72540-91a0-426c-bfef-a1d2d8cb13f1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA, short-id: "111111" }, servername: api-maps.yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 哈薩克斯坦, server: 5.39.253.14, port: 443, type: vless, uuid: db912ae7-7c2e-4777-897c-c49201e48cb9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: VRZ6ZwSsMA9K5f7aoJ9KvQgQ4xoSaF792mcNbeh-TQ4, short-id: "f12d61f4" }, servername: vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 107, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25252B%25252B%25252B%25252B%25252B%25252B%25252B%25255BBy%25252BDukeMehdi%25255D%25252Bb2n.ir%25252Fv2ray-configs%25252B%25257C%25252B78%25252B", skip-cert-verify: false}
+  - {name: 美國 29, server: ip-range.web3.name.ng, port: 8443, type: vless, uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4, tls: true, tfo: false, skip-cert-verify: false, servername: hzr50.sepiol.name.ng, client-fingerprint: firefox, network: ws, ws-opts: {path: /, headers: {Host: hzr50.sepiol.name.ng}}}
+  - {name: 波蘭, server: 176.123.164.110, port: 51102, type: vless, uuid: 02828e56-4d2d-4dc1-90c4-5297327023ca, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: m.vk.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 108, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520934%2520", skip-cert-verify: false}
+  - {name: 俄羅斯 8, server: 91.243.82.82, port: 443, type: vless, uuid: a91e64f0-9295-499d-bf4a-661ad99d4938, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8, short-id: "1ed136481e0ede74" }, servername: khabarovsk.geodema.network, client-fingerprint: chrome, network: tcp}
+  - {name: 台灣 15, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 91f1ea30-394c-43cf-b407-d0987bcab9af, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 德國 44, server: 5.10.214.5, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}}
+  - {name: 台灣 16, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 91f1ea30-394c-43cf-b407-d0987bcab9af, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 17, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: a77233e9-abe2-4246-972e-48802c4c04fa, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 德國 45, server: oon.visaups.ir, port: 80, type: vless, uuid: 087d8602-503b-4091-9f05-44c20792083c, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oon.visaups.ir}}}
+  - {name: 🇭🇰 香港 109, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20", skip-cert-verify: false}
+  - {name: 美國 30, server: picassooo.info, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇭🇰 香港 110, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B761%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 111, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%252B%252B%252B%252B%252B%252B%252B%255BBy%252BEbraSha%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B160%252B", skip-cert-verify: false}
+  - {name: 美國 31, server: oon.visaups.ir, port: 80, type: vless, uuid: 087d8602-503b-4091-9f05-44c20792083c, tls: false, tfo: false, skip-cert-verify: false, servername: oon.visaups.ir, network: ws, ws-opts: {path: /, headers: {Host: oon.visaups.ir}}}
+  - {name: 🇭🇰 香港 112, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B", skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡, server: 109.120.189.252, port: 4241, type: vless, uuid: 8ad72540-91a0-426c-bfef-a1d2d8cb13f1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA, short-id: "111111" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 113, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B88%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 114, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520160%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 115, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 116, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 117, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 9450ab5e-f86f-40c1-89b0-92dfa6679553, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 18, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: bb64f482-0dcb-46a4-b3b5-ec34bbdeeca8, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: Twitter蘇小檸 | 華東電訊 | 解鎖Netflix, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: df682bf0-81ae-41ea-bab3-be7075a7f1ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 118, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B232%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 119, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20", skip-cert-verify: false}
+  - {name: 台灣 19, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 774b491c-f809-4dbd-b31c-bc3bd6ab92ac, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 20, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 9450ab5e-f86f-40c1-89b0-92dfa6679553, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 21, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: cccce61b-b07d-47e5-82c1-c0f1ccba1454, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 120, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520789%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 121, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B934%2B", skip-cert-verify: false}
+  - {name: 台灣 22, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: a9e2cb75-6c86-49e5-b637-10575ac31ffb, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 美國 32, server: 178.156.215.152, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇭🇰 香港 122, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B868%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 123, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 俄羅斯 9, server: 84.23.53.252, port: 443, type: vless, uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw, short-id: "c7e42004e5f024be" }, servername: sun6-21.userapi.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 124, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252525252Fripaojiedian, skip-cert-verify: false}
+  - {name: 俄羅斯 10, server: 176.122.27.133, port: 4443, type: vless, uuid: 75fbc7a6-b1c0-4f9f-aff7-166d1770d93b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: dDKeHqeOtJPi7u_10W4orYrd0Kq-ndCD_F96nbB2Bjo, short-id: "84ba23f147ad7a15" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 125, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%2525EF%2525BF%2525BD%252520%25255BBy%252520EbraSha%25255D%252520b2n.ir%25252Fv2ray-configs%252520%25257C%252520178%252520", skip-cert-verify: false}
+  - {name: 芬蘭 3, server: 178.17.53.28, port: 47539, type: vless, uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U, short-id: "82a55f31981ea6be" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇭🇰 香港 126, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 127, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B83%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 128, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520885%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 129, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25F0%259F%2594%2592%2520%255BBy%2520EbraSha%255D", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 130, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 131, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 132, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 133, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: 台灣 23, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: f016b304-f6cf-4199-b4eb-1f6b4b48f169, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 24, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: a77233e9-abe2-4246-972e-48802c4c04fa, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 25, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: cf92e075-0787-497c-809f-cfd4820bb949, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 26, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: d30c2d87-9541-4681-a912-e51e190bad2a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 27, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 774b491c-f809-4dbd-b31c-bc3bd6ab92ac, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 美國 33, server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇭🇰 香港 134, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 135, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BEbraSha%255D%252Btrojan-HK%252B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 136, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520EbraSha%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520166%2520", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 137, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B54%2B", skip-cert-verify: false}
+  - {name: 德國 46, server: 5.10.214.0, port: 8443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo}}}
+  - {name: 芬蘭 4, server: 146.75.119.82, port: 80, type: vless, uuid: 74542945-0d84-4797-a56e-e7f31b84c5be, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048", headers: {Host: welcomtofreeboarders.com}}}
+  - {name: 🇭🇰 香港 138, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B934%2B", skip-cert-verify: false}
+  - {name: 美國 34, server: 4069-a9d0-b967c7529ac7.457.pp.ua, port: 443, type: trojan, password: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1, sni: 4069-a9d0-b967c7529ac7.457.pp.ua, alpn: [http%2F1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /5d1oQkMFHGGJgKDsqROzSPoHrBo, headers: {Host: 4069-a9d0-b967c7529ac7.457.pp.ua}}}
+  - {name: 🇭🇰 香港 139, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: "%F0%9F%94%92%20%5BBy%20EbraSha%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 美國 35, server: 4069-a9d0-b967c7529ac7.457.pp.ua, port: 443, type: vless, uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: false, servername: 4069-a9d0-b967c7529ac7.457.pp.ua, client-fingerprint: chrome, network: ws, ws-opts: {path: /dgK6j67SvsqROzSPoHrBo, headers: {Host: 4069-a9d0-b967c7529ac7.457.pp.ua}}}
+  - {name: 台灣 28, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: a77233e9-abe2-4246-972e-48802c4c04fa, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 140, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: df682bf0-81ae-41ea-bab3-be7075a7f1ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 2, server: 140.83.34.214, port: 8443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: hk.aniuge.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: hk.aniuge.qzz.io}}}
+  - {name: 🇭🇰 香港 141, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: a77233e9-abe2-4246-972e-48802c4c04fa, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 美國 36, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 040faa11-3aeb-4408-b590-dca4f947705a, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 台灣 29, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: df682bf0-81ae-41ea-bab3-be7075a7f1ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 142, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B166%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 143, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 144, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
+  - {name: 德國 47, server: 5.10.214.5, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, tfo: false, skip-cert-verify: false, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}}
+  - {name: 🇭🇰 香港 145, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B", skip-cert-verify: false}
+  - {name: 🇭🇰 香港 146, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2520%2520%2520%2520%2520%2520%2520%255BBy%252BDukeMehdi%255D%252Bb2n.ir%252Fv2ray-configs%2520", skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -329,26 +329,19 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 中國
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇭🇰 香港 2
       - 美國
       - 美國 2
-      - 🇯🇵 日本
+      - 🇮🇳 印度
+      - 🇭🇰 香港 3
       - 美國 3
       - 美國 4
-      - 美國 5
-      - 美國 6
-      - 美國 7
-      - 美國 8
-      - 美國 9
-      - 美國 10
-      - 美國 11
-      - 美國 12
-      - 美國 13
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 🇭🇰 香港 4
       - 🇭🇰 香港 5
+      - 美國 5
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
@@ -357,276 +350,283 @@ proxy-groups:
       - 🇭🇰 香港 11
       - 🇭🇰 香港 12
       - 🇭🇰 香港 13
-      - 美國 14
-      - 🇯🇵 日本 2
       - 🇭🇰 香港 14
-      - 🇯🇵 日本 3
       - 🇭🇰 香港 15
-      - 🇯🇵 日本 4
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
       - 🇭🇰 香港 19
       - 🇭🇰 香港 20
-      - 美國 15
       - 🇭🇰 香港 21
       - 🇭🇰 香港 22
-      - 俄羅斯
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 美國 6
       - 🇭🇰 香港 25
       - 🇭🇰 香港 26
       - 🇭🇰 香港 27
       - 🇭🇰 香港 28
+      - 美國 7
       - 🇭🇰 香港 29
       - 🇭🇰 香港 30
       - 🇭🇰 香港 31
       - 🇭🇰 香港 32
       - 🇭🇰 香港 33
+      - 台灣
       - 🇭🇰 香港 34
+      - 德國
       - 🇭🇰 香港 35
-      - 🇸🇬 新加坡
       - 🇭🇰 香港 36
       - 🇭🇰 香港 37
-      - 美國 16
       - 🇭🇰 香港 38
-      - 🇺🇸 美国
       - 🇭🇰 香港 39
-      - 🇺🇸 美国 2
       - 🇭🇰 香港 40
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 荷蘭
       - 🇭🇰 香港 41
-      - 🇺🇸 美国 5
-      - 美國 17
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇭🇰 香港 42
       - 🇭🇰 香港 43
-      - 🇺🇸 美国 9
       - 🇭🇰 香港 44
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
       - 🇭🇰 香港 45
       - 🇭🇰 香港 46
-      - 🇺🇸 美国 14
-      - 美國 18
-      - 🇺🇸 美国 15
       - 🇭🇰 香港 47
-      - 美國 19
-      - 美國 20
       - 🇭🇰 香港 48
       - 🇭🇰 香港 49
-      - 🇯🇵 日本 5
       - 🇭🇰 香港 50
-      - 🇺🇸 美国 16
+      - 愛爾蘭
       - 🇭🇰 香港 51
-      - 🇺🇸 美国 17
+      - 美國 8
+      - 🇭🇺 匈牙利
+      - 奧地利
       - 🇭🇰 香港 52
+      - 荷蘭
       - 🇭🇰 香港 53
-      - 美國 21
       - 🇭🇰 香港 54
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 美國 22
+      - 美國 9
+      - 美國 10
+      - 中國 2
+      - 美國 11
+      - 芬蘭
+      - 🇹🇷 土耳其
       - 🇭🇰 香港 55
+      - 美國 12
       - 🇭🇰 香港 56
+      - 🇯🇵 日本 2
+      - 俄羅斯
       - 🇭🇰 香港 57
+      - 美國 13
       - 🇭🇰 香港 58
       - 🇭🇰 香港 59
-      - 🇭🇰 香港 60
-      - 🇭🇰 香港 61
-      - 🇭🇰 香港 62
-      - 🇭🇰 香港 63
-      - 🇺🇸 美国 21
-      - 🇭🇰 香港 64
-      - 🇭🇰 香港 65
-      - 德國
-      - 🇭🇰 香港 66
-      - 阿聯酋
       - 俄羅斯 2
-      - 美國 23
+      - 🇭🇰 香港 60
+      - 俄羅斯 3
+      - 德國 2
+      - 🇭🇰 香港 61
+      - 俄羅斯 4
+      - 俄羅斯 5
+      - 美國 14
+      - 🇭🇰 香港 62
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 63
+      - 🇭🇰 香港 64
+      - 俄羅斯 6
+      - 🇭🇰 香港 65
+      - 🇭🇰 香港 66
       - 🇭🇰 香港 67
       - 🇭🇰 香港 68
+      - 🇱🇹 立陶宛
+      - 台灣 2
+      - 美國 15
+      - 美國 16
+      - 台灣 3
+      - 台灣 4
+      - 台灣 5
+      - 🇸🇪 瑞典
+      - 台灣 6
+      - 台灣 7
       - 🇭🇰 香港 69
       - 🇭🇰 香港 70
+      - 台灣 8
       - 🇭🇰 香港 71
       - 🇭🇰 香港 72
+      - 美國 17
       - 🇭🇰 香港 73
+      - 台灣 9
+      - 台灣 10
       - 🇭🇰 香港 74
       - 🇭🇰 香港 75
       - 🇭🇰 香港 76
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
       - 🇭🇰 香港 77
+      - 荷蘭 2
+      - 德國 3
+      - 台灣 11
+      - 德國 4
       - 🇭🇰 香港 78
-      - 芬蘭
+      - 德國 5
+      - 德國 6
+      - 台灣 12
       - 🇭🇰 香港 79
+      - 德國 7
       - 🇭🇰 香港 80
       - 🇭🇰 香港 81
+      - 台灣 13
+      - 德國 8
+      - 德國 9
+      - 德國 10
+      - 德國 11
+      - 🇯🇵 日本 4
+      - 德國 12
+      - 俄羅斯 7
+      - 台灣 14
       - 🇭🇰 香港 82
+      - 🇯🇵 日本 5
       - 🇭🇰 香港 83
+      - 荷蘭 3
+      - 德國 13
       - 🇭🇰 香港 84
+      - 德國 14
+      - 英國
       - 🇭🇰 香港 85
+      - 德國 15
+      - 德國 16
+      - 德國 17
+      - 德國 18
       - 🇭🇰 香港 86
+      - 德國 19
+      - 美國 18
+      - 德國 20
+      - 德國 21
+      - 德國 22
       - 🇭🇰 香港 87
-      - 🇯🇵 日本 6
+      - 德國 23
+      - 美國 19
+      - 德國 24
+      - 荷蘭 4
+      - 德國 25
       - 🇭🇰 香港 88
+      - 美國 20
+      - 德國 26
+      - 德國 27
       - 🇭🇰 香港 89
       - 🇭🇰 香港 90
-      - 🇯🇵 日本 7
       - 🇭🇰 香港 91
+      - 德國 28
+      - 美國 21
+      - 美國 22
+      - 美國 23
       - 🇭🇰 香港 92
+      - 德國 29
+      - 德國 30
+      - 德國 31
       - 🇭🇰 香港 93
-      - 美國 24
+      - 德國 32
       - 🇭🇰 香港 94
-      - 🇺🇸 美国 22
-      - 賽普勒斯
-      - 俄羅斯 3
+      - 德國 33
       - 🇭🇰 香港 95
-      - 俄羅斯 4
+      - 德國 34
+      - 德國 35
       - 🇭🇰 香港 96
       - 🇭🇰 香港 97
+      - 德國 36
+      - 德國 37
       - 🇭🇰 香港 98
-      - 俄羅斯 5
+      - 美國 24
+      - 美國 25
       - 🇭🇰 香港 99
-      - 芬蘭 2
       - 🇭🇰 香港 100
+      - 美國 26
+      - 德國 38
       - 🇭🇰 香港 101
-      - 俄羅斯 6
       - 🇭🇰 香港 102
+      - 德國 39
+      - 德國 40
       - 🇭🇰 香港 103
       - 🇭🇰 香港 104
-      - 德國 2
-      - 德國 3
+      - 芬蘭 2
+      - 德國 41
+      - 美國 27
       - 🇭🇰 香港 105
+      - 美國 28
+      - 摩爾多瓦
+      - 英國 2
+      - 德國 42
       - 🇭🇰 香港 106
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
+      - 德國 43
+      - 哈薩克斯坦
       - 🇭🇰 香港 107
-      - 俄羅斯 7
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 5
-      - 🇭🇰 香港 108
-      - 🇭🇰 香港 109
+      - 美國 29
       - 波蘭
+      - 🇭🇰 香港 108
       - 俄羅斯 8
+      - 台灣 15
+      - 德國 44
+      - 台灣 16
+      - 台灣 17
+      - 德國 45
+      - 🇭🇰 香港 109
+      - 美國 30
       - 🇭🇰 香港 110
-      - 德國 4
       - 🇭🇰 香港 111
-      - 荷蘭 2
-      - 美國 25
+      - 美國 31
       - 🇭🇰 香港 112
+      - 🇸🇬 新加坡
       - 🇭🇰 香港 113
-      - 波蘭 2
       - 🇭🇰 香港 114
-      - 德國 5
       - 🇭🇰 香港 115
       - 🇭🇰 香港 116
       - 🇭🇰 香港 117
+      - 台灣 18
+      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
       - 🇭🇰 香港 118
-      - 俄羅斯 9
-      - 俄羅斯 10
-      - 德國 6
-      - 波蘭 3
       - 🇭🇰 香港 119
+      - 台灣 19
+      - 台灣 20
+      - 台灣 21
       - 🇭🇰 香港 120
       - 🇭🇰 香港 121
+      - 台灣 22
+      - 美國 32
       - 🇭🇰 香港 122
-      - 波蘭 4
-      - 俄羅斯 11
-      - 波蘭 5
-      - 波蘭 6
       - 🇭🇰 香港 123
-      - 德國 7
-      - 德國 8
-      - 德國 9
+      - 俄羅斯 9
       - 🇭🇰 香港 124
-      - 波蘭 7
+      - 俄羅斯 10
       - 🇭🇰 香港 125
-      - 美國 26
       - 芬蘭 3
       - 🇭🇰 香港 126
       - 🇭🇰 香港 127
-      - 波蘭 8
-      - 德國 10
       - 🇭🇰 香港 128
       - 🇭🇰 香港 129
       - 🇭🇰 香港 130
-      - 荷蘭 3
-      - 波蘭 9
-      - 波蘭 10
       - 🇭🇰 香港 131
-      - 賽普勒斯 2
       - 🇭🇰 香港 132
-      - 德國 11
       - 🇭🇰 香港 133
-      - 德國 12
+      - 台灣 23
+      - 台灣 24
+      - 台灣 25
+      - 台灣 26
+      - 台灣 27
+      - 美國 33
       - 🇭🇰 香港 134
       - 🇭🇰 香港 135
       - 🇭🇰 香港 136
       - 🇭🇰 香港 137
+      - 德國 46
+      - 芬蘭 4
       - 🇭🇰 香港 138
+      - 美國 34
       - 🇭🇰 香港 139
+      - 美國 35
+      - 台灣 28
       - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港 141
+      - 美國 36
+      - 台灣 29
       - 🇭🇰 香港 142
       - 🇭🇰 香港 143
       - 🇭🇰 香港 144
+      - 德國 47
       - 🇭🇰 香港 145
       - 🇭🇰 香港 146
-      - 🇭🇰 香港 147
-      - 🇭🇰 香港 148
-      - 🇭🇰 香港 149
-      - 俄羅斯 12
-      - 🇭🇰 香港 150
-      - 🇭🇰 香港 151
-      - 🇭🇰 香港 152
-      - 🇭🇰 香港 153
-      - 🇭🇰 香港 154
-      - 🇻🇳 越南
-      - 🇭🇰 香港 155
-      - 🇭🇰 香港 156
-      - 🇭🇰 香港 157
-      - 美國 27
-      - 🇭🇰 香港 158
-      - 德國 13
-      - 🇭🇰 香港 159
-      - 🇭🇰 香港 160
-      - 🇭🇰 香港 161
-      - 🇭🇰 香港 162
-      - 🇭🇰 香港 163
-      - 🇭🇰 香港 164
-      - 🇭🇰 香港 165
-      - 🇭🇰 香港 166
-      - 🇭🇰 香港 167
-      - 🇭🇰 香港 168
-      - 🇭🇰 香港 169
-      - 美國 28
-      - 🇭🇰 香港 170
-      - 🇭🇰 香港 171
-      - 🇭🇰 香港 172
-      - 🇭🇰 香港 173
-      - 🇭🇰 香港 174
-      - 🇺🇸 美国 23
-      - 🇭🇰 香港 175
-      - 🇭🇰 香港 176
-      - 🇭🇰 香港 177
-      - 🇭🇰 香港 178
-      - 德國 14
-      - 🇭🇰 香港 179
-      - 🇭🇰 香港 180
-      - 🇭🇰 香港 181
-      - 🇭🇰 香港 182
-      - 🇭🇰 香港 183
-      - 🇭🇰 香港 184
-      - 🇭🇰 香港 185
-      - 德國 15
-      - 🇭🇰 香港 186
-      - 🇭🇰 香港 187
   - name: 📲 电报消息
     type: select
     proxies:
@@ -963,47 +963,6 @@ proxy-groups:
       - 🇭🇰 香港 144
       - 🇭🇰 香港 145
       - 🇭🇰 香港 146
-      - 🇭🇰 香港 147
-      - 🇭🇰 香港 148
-      - 🇭🇰 香港 149
-      - 🇭🇰 香港 150
-      - 🇭🇰 香港 151
-      - 🇭🇰 香港 152
-      - 🇭🇰 香港 153
-      - 🇭🇰 香港 154
-      - 🇭🇰 香港 155
-      - 🇭🇰 香港 156
-      - 🇭🇰 香港 157
-      - 🇭🇰 香港 158
-      - 🇭🇰 香港 159
-      - 🇭🇰 香港 160
-      - 🇭🇰 香港 161
-      - 🇭🇰 香港 162
-      - 🇭🇰 香港 163
-      - 🇭🇰 香港 164
-      - 🇭🇰 香港 165
-      - 🇭🇰 香港 166
-      - 🇭🇰 香港 167
-      - 🇭🇰 香港 168
-      - 🇭🇰 香港 169
-      - 🇭🇰 香港 170
-      - 🇭🇰 香港 171
-      - 🇭🇰 香港 172
-      - 🇭🇰 香港 173
-      - 🇭🇰 香港 174
-      - 🇭🇰 香港 175
-      - 🇭🇰 香港 176
-      - 🇭🇰 香港 177
-      - 🇭🇰 香港 178
-      - 🇭🇰 香港 179
-      - 🇭🇰 香港 180
-      - 🇭🇰 香港 181
-      - 🇭🇰 香港 182
-      - 🇭🇰 香港 183
-      - 🇭🇰 香港 184
-      - 🇭🇰 香港 185
-      - 🇭🇰 香港 186
-      - 🇭🇰 香港 187
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -1012,8 +971,6 @@ proxy-groups:
       - 🇯🇵 日本 3
       - 🇯🇵 日本 4
       - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -1033,49 +990,63 @@ proxy-groups:
       - 美國 14
       - 美國 15
       - 美國 16
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
       - 美國 17
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
       - 美國 18
-      - 🇺🇸 美国 15
       - 美國 19
       - 美國 20
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
       - 美國 21
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
       - 美國 22
-      - 🇺🇸 美国 21
       - 美國 23
       - 美國 24
-      - 🇺🇸 美国 22
       - 美國 25
       - 美國 26
       - 美國 27
       - 美國 28
-      - 🇺🇸 美国 23
+      - 美國 29
+      - 美國 30
+      - 美國 31
+      - 美國 32
+      - 美國 33
+      - 美國 34
+      - 美國 35
+      - 美國 36
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 台灣
+      - 台灣 2
+      - 台灣 3
+      - 台灣 4
+      - 台灣 5
+      - 台灣 6
+      - 台灣 7
+      - 台灣 8
+      - 台灣 9
+      - 台灣 10
+      - 台灣 11
+      - 台灣 12
+      - 台灣 13
+      - 台灣 14
+      - 台灣 15
+      - 台灣 16
+      - 台灣 17
+      - 台灣 18
+      - 台灣 19
+      - 台灣 20
+      - 台灣 21
+      - 台灣 22
+      - 台灣 23
+      - 台灣 24
+      - 台灣 25
+      - 台灣 26
+      - 台灣 27
+      - 台灣 28
+      - 台灣 29
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -1084,10 +1055,6 @@ proxy-groups:
     type: select
     proxies:
       - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 2
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 3
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 4
-      - Twitter蘇小檸 | 華東電訊 | 解鎖Netflix 5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
